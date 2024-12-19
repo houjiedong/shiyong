@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  line-height: 2; /* 设置行高为1.6倍字体大小 */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+  background-color: #F5DEB3; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.selection-section, 
+#criteria-section, 
+#options-section, 
+#rating-section, 
+#result-section {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="number"], 
+input[type="text"] {
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50px;
+    display: inline-block;
+}
+
+input[type="text"] {
+    width: 300px;
+}
+.consumer-image {
+    width: 200px; /* 限制图片宽度为 100px */
+    height: auto; /* 按比例调整图片高度 */
+    margin-left: 10px; /* 图片与文字之间增加间距 */
+    vertical-align: middle; /* 图片与文字垂直居中对齐 */
+    border-radius: 5px; /* 图片四角微微圆滑 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 增加轻微阴影美观 */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://bpic.588ku.com/element_origin_min_pic/23/11/30/7f07406ce72bd118657d0d3913f75094.jpg');
+    background-size: calc(100% / 2) auto; /* 将每张图片的宽度设置为屏幕宽度的三分之一，高度自动 */
+    background-repeat: repeat; /* 横向和纵向平铺图片 */
+    background-position: top left; /* 从左上角开始平铺 */
+    padding: 20px; /* 保持页面内容的内边距 */
+}
